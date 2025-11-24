@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REES Dashboard</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <script src="{% static 'script.js' %}"></script>
+
+</head>
+<body>
+    <header>
+        <h1 id="dashboard-title">Rural Education Empowerment System</h1>
+        <!-- Language Toggle -->
+        <select id="language-toggle">
+            <option value="en">English</option>
+            <option value="rw">Kinyarwanda</option>
+        </select>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#" class="nav-link" data-section="home">Home</a></li>
+            <li><a href="#" class="nav-link" data-section="courses">Courses</a></li>
+            <li><a href="#" class="nav-link" data-section="lessons">Lessons</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="active-section">
+            <h2 id="home-title">Welcome to REES</h2>
+            <p id="home-text">Empowering rural communities through education.</p>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses">
+            <h2 id="courses-title">Courses</h2>
+            <select id="course-dropdown">
+                <option value="">Select a course</option>
+                <option value="1" data-desc-en="Mathematics course description in English" data-desc-rw="Ibisobanuro by’amasomo ya Mathematics mu Kinyarwanda">Mathematics</option>
+                <option value="2" data-desc-en="Science course description in English" data-desc-rw="Ibisobanuro by’amasomo ya Science mu Kinyarwanda">Science</option>
+            </select>
+            <div id="course-details">
+                <p id="course-description"></p>
+            </div>
+        </section>
+
+        <!-- Lessons Section -->
+        <section id="lessons">
+            <h2 id="lessons-title">Lessons</h2>
+            <ul id="lesson-list">
+                <li data-title-en="Lesson 1: Algebra" data-title-rw="Isomo 1: Algebra">Lesson 1: Algebra</li>
+                <li data-title-en="Lesson 2: Geometry" data-title-rw="Isomo 2: Geometry">Lesson 2: Geometry</li>
+                <li data-title-en="Lesson 3: Physics" data-title-rw="Isomo 3: Physics">Lesson 3: Physics</li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
+

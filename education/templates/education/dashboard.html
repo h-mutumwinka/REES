@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% load static %}
+    <meta charset="UTF-8">
+    <title>REES Dashboard</title>
+    <link rel="stylesheet" href="{% static 'education/css/style.css' %}">
+</head>
+<body>
+    <header>
+        <h1 id="dashboard-title">Rural Education Empowerment System</h1>
+        <select id="language-toggle">
+            <option value="en">English</option>
+            <option value="rw">Kinyarwanda</option>
+        </select>
+    </header>
+
+    <nav>
+        <a href="#" class="nav-link" data-section="home">Home</a>
+        <a href="#" class="nav-link" data-section="courses">Courses</a>
+    </nav>
+
+    <main>
+        <section id="home" class="active-section">
+            <h2 id="home-title">Welcome to REES</h2>
+            <p id="home-text">Empowering rural communities through education.</p>
+        </section>
+
+        <section id="courses">
+            <h2>Courses</h2>
+            <select id="course-dropdown">
+                <option value="">Select a course</option>
+                {% for course in courses %}
+                <option value="{{ course.id }}"
+                        data-desc-en="{{ course.description_en }}"
+                        data-desc-rw="{{ course.description_rw }}">
+                    {{ course.title_en }}
+                </option>
+                {% endfor %}
+            </select>
+            <div id="course-details">
+                <p id="course-description"></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="{% static 'education/js/script.js' %}"></script>
+</body>
+</html>
+
