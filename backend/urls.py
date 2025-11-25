@@ -4,5 +4,8 @@ from education import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.dashboard, name='dashboard'),
+    path('', views.home, name='home')
+    path('dashboard/', views.dashboard, name='dashboard'),
 ]
+
+
