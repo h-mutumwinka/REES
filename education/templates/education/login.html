@@ -1,15 +1,118 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - REES</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background: white;
+            width: 380px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        h2 {
+            color: #000;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            text-align: left;
+            margin: 10px 0 5px;
+            font-weight: bold;
+            color: #222;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            margin-bottom: 15px;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 12px;
+            background: #FFD700; /* Yellow */
+            color: #000;         /* Black text */
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .login-btn:hover {
+            background: #e6c200;
+        }
+
+        .signup-link {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+
+        a {
+            color: #000;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .error-message {
+            color: red;
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+
+    </style>
 </head>
 <body>
-    <h2>Login</h2>
-    <form method="post">
-        {% csrf_token %}
-        {{ form.as_p }}
-        <button type="submit">Login</button>
-    </form>
-    <p> You don't have an account? <a href="{% url 'signup' %}">Sign up</a></p>
+
+    <div class="login-container">
+        <h2>Welcome Back</h2>
+
+        {% if form.errors %}
+            <p class="error-message">Invalid username or password. Try again.</p>
+        {% endif %}
+
+        <form method="POST">
+            {% csrf_token %}
+
+            <label for="id_username">Username</label>
+            {{ form.username }}
+
+            <label for="id_password">Password</label>
+            {{ form.password }}
+
+            <button type="submit" class="login-btn">Login</button>
+
+            <p class="signup-link">
+                Don't have an account?
+                <a href="{% url 'signup' %}">Sign Up</a>
+            </p>
+        </form>
+    </div>
+
 </body>
 </html>
+
