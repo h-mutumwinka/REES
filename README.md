@@ -41,7 +41,6 @@ h-mutumwinka/
 * Python 3.8+
 * Django 4.x
 * SQLite3 (default for development)
-* Node.js & npm (optional if frontend uses build tools)
 * Git
 
 ---
