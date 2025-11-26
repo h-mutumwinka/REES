@@ -1,62 +1,113 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% load static %}
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REES Dashboard</title>
+    <title>REES - Rural Education Empowerment System</title>
     <link rel="stylesheet" href="{% static 'style.css' %}">
-    <script src="{% static 'script.js' %}"></script>
-
 </head>
+
 <body>
+
+    <!-- HEADER -->
     <header>
-        <h1 id="dashboard-title">Rural Education Empowerment System</h1>
-        <!-- Language Toggle -->
-        <select id="language-toggle">
-            <option value="en">English</option>
-            <option value="rw">Kinyarwanda</option>
-        </select>
+        <h1>REES</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">Lessons</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#" class="nav-link" data-section="home">Home</a></li>
-            <li><a href="#" class="nav-link" data-section="courses">Courses</a></li>
-            <li><a href="#" class="nav-link" data-section="lessons">Lessons</a></li>
-        </ul>
-    </nav>
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h2>Welcome to the Rural Education Empowerment System (REES)</h2>
+        <p>
+            A modern digital learning platform designed to empower rural communities 
+            by providing accessible, high-quality education. REES brings innovation to 
+            places where learning opportunities are limited, bridging the gap between 
+            rural challenges and digital possibilities.
+        </p>
+    </section>
 
-    <main>
-        <!-- Home Section -->
-        <section id="home" class="active-section">
-            <h2 id="home-title">Welcome to REES</h2>
-            <p id="home-text">Empowering rural communities through education.</p>
-        </section>
+    <!-- ABOUT REES -->
+    <section class="section">
+        <h2>What is REES?</h2>
+        <p>
+            REES is a technology-driven initiative focused on transforming rural education 
+            in Africa. Many communities lack access to computers, structured lessons, and 
+            digital tools — and we believe every child deserves an opportunity to learn, 
+            grow, and dream without limits. Through REES, students, youth, and adults gain 
+            access to structured courses, interactive lessons, digital literacy, and 
+            essential skills needed to thrive in a fast-changing world.
+        </p>
+        <p>
+            Our mission is to support lifelong learning by combining modern tools, 
+            user-friendly platforms, and community empowerment strategies. REES is more 
+            than an app — it is a movement for a brighter future.
+        </p>
+    </section>
 
-        <!-- Courses Section -->
-        <section id="courses">
-            <h2 id="courses-title">Courses</h2>
-            <select id="course-dropdown">
-                <option value="">Select a course</option>
-                <option value="1" data-desc-en="Mathematics course description in English" data-desc-rw="Ibisobanuro by’amasomo ya Mathematics mu Kinyarwanda">Mathematics</option>
-                <option value="2" data-desc-en="Science course description in English" data-desc-rw="Ibisobanuro by’amasomo ya Science mu Kinyarwanda">Science</option>
-            </select>
-            <div id="course-details">
-                <p id="course-description"></p>
+    
+    <section class="section">
+        <h2>Our Key Features</h2>
+
+        <div class="cards">
+
+            <!-- Digital Courses -->
+            <div class="card">
+                <img src="{% static 'images/ai-course.png' %}" alt="Courses">
+                <h3>Digital Courses</h3>
+                <p>Access structured lessons from beginner to advanced levels in literacy, 
+                   technology, and professional development.</p>
             </div>
-        </section>
 
-        <!-- Lessons Section -->
-        <section id="lessons">
-            <h2 id="lessons-title">Lessons</h2>
-            <ul id="lesson-list">
-                <li data-title-en="Lesson 1: Algebra" data-title-rw="Isomo 1: Algebra">Lesson 1: Algebra</li>
-                <li data-title-en="Lesson 2: Geometry" data-title-rw="Isomo 2: Geometry">Lesson 2: Geometry</li>
-                <li data-title-en="Lesson 3: Physics" data-title-rw="Isomo 3: Physics">Lesson 3: Physics</li>
-            </ul>
-        </section>
-    </main>
+            <div class="card">
+                <img src="{% static 'images/ai-learning.png' %}" alt="AI Learning">
+                <h3>AI-Assisted Learning</h3>
+                <p>Learn smarter and faster with AI-generated quizzes, explanations, and 
+                   personalized study recommendations.</p>
+            </div>
+
+            <div class="card">
+                <img src="{% static 'images/community.png' %}" alt="Community">
+                <h3>Community Growth</h3>
+                <p>Empowering rural students, teachers, and youth groups to collaborate, 
+                   innovate, and grow together.</p>
+            </div>
+
+            <div class="card">
+                <img src="{% static 'images/offline.png' %}" alt="Offline Mode">
+                <h3>Offline Access</h3>
+                <p>Learn anytime — even without internet. Download selected lessons and 
+                   continue learning on the go.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Our Vision for Rural Communities</h2>
+        <p>
+            REES envisions a world where every rural child has equal access to digital 
+            knowledge. A world where education is not limited by geography, income, or 
+            environment. Our goal is to nurture confident learners, innovators, and 
+            leaders who will contribute to their communities and shape a better tomorrow.
+        </p>
+        <p>
+            We believe technology can break barriers. With the right tools, even the 
+            most remote communities can unlock their full potential.
+        </p>
+    </section>
+
+    <footer>
+        Rural Education Empowerment System (REES) — Empowering Communities Through Education
+    </footer>
+
 </body>
 </html>
 
