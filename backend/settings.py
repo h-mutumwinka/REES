@@ -83,6 +83,8 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR / 'frontend',
 ]
+LOGIN_REDIRECT_URL = 'dashboard'  
+LOGOUT_REDIRECT_URL = 'login'     
 
-# Default primary key field type
+
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
