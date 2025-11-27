@@ -101,7 +101,7 @@ http://127.0.0.1:8000/
 
 ## Deployment
 
-* The app can be deployed to Heroku,PythonAnywhere, or any cloud service that supports Django.
+* The app was deployed to Render that supports Django.
 * Ensure environment variables are set for `SECRET_KEY` and database if using production DB.
 * Use `DEBUG=False` in production.
 
