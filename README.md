@@ -58,8 +58,8 @@ cd h-mutumwinka
 
 ```bash
 python -m venv venv
-source venv/bin/activate       # Linux/Mac
-venv\Scripts\activate          # Windows
+source venv/bin/activate       
+venv\Scripts\activate          
 ```
 
 3. **Install dependencies**
