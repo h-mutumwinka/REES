@@ -115,7 +115,12 @@ export default function TeacherDashboard() {
                     </CardHeader>
                     <CardContent>
                       <p className="text-sm text-muted-foreground">{course.description}</p>
-                      <Button className="w-full mt-4 bg-primary hover:bg-primary/90">Manage Course</Button>
+                      <Button
+                        className="w-full mt-4 bg-primary hover:bg-primary/90"
+                        onClick={() => router.push(`/teacher/courses/${course.id}`)}
+                      >
+                        Manage Course
+                      </Button>
                     </CardContent>
                   </Card>
                 ))}

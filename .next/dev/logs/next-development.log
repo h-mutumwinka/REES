@@ -8,3 +8,545 @@
 [00:09:12.931] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
 [00:09:12.931] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
 [00:09:12.931] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764278879262}
+[00:34:19.831] Server  LOG      ○ Compiling /api/auth/login ...
+[00:34:31.516] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[00:34:31.543] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[00:34:31.546] Server  LOG     Creating database connection...
+[00:34:31.728] Server  LOG     Database connection created successfully
+[00:34:31.729] Server  LOG     Initializing schema...
+[00:34:31.797] Server  LOG     Schema initialized
+[00:34:31.799] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[00:34:35.319] Server  LOG      ○ Compiling /admin/dashboard ...
+[00:34:42.279] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764280408606}
+[00:34:56.139] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764280422454}
+[00:37:41.777] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:37:42.421] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:37:42.421] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:37:42.421] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764280588753}
+[00:38:15.010] Server  LOG     Signup attempt for: {}
+[00:38:32.230] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764280638481}
+[00:42:41.885] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764280888088}
+[00:42:52.878] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764280899096}
+[00:43:23.861] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764280930144}
+[00:43:54.077] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764280960361}
+[00:44:19.987] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764280986193}
+[00:44:24.817] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:44:24.927] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:44:24.927] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:44:24.927] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764280991202}
+[00:49:32.851] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[00:49:32.869] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[00:49:32.878] Server  LOG     Creating database connection...
+[00:49:32.897] Server  LOG     Database connection created successfully
+[00:49:32.899] Server  LOG     Initializing schema...
+[00:49:32.915] Server  LOG     Schema initialized
+[00:49:32.918] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[00:49:33.829] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281300121}
+[00:49:40.900] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281307218}
+[00:50:08.508] Server  LOG      ✓ Compiled in 818ms
+[00:50:23.345] Server  LOG      ✓ Compiled in 1688ms
+[00:51:09.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:10.039] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:51:10.039] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:51:10.039] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281396370}
+[00:51:13.475] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281399695}
+[00:52:10.850] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281457158}
+[00:52:20.217] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281466490}
+[00:54:25.253] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281591511}
+[00:54:29.414] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281595717}
+[00:54:33.275] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281599551}
+[00:55:17.642] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[00:55:17.823] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[00:55:18.078] Server  LOG     Creating database connection...
+[00:55:18.485] Server  LOG     Database connection created successfully
+[00:55:18.805] Server  LOG     Initializing schema...
+[00:55:19.589] Server  LOG     Schema initialized
+[00:55:19.593] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[00:56:41.064] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281727391}
+[00:56:41.799] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[00:56:41.802] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[00:56:41.804] Server  LOG     Creating database connection...
+[00:56:41.812] Server  LOG     Database connection created successfully
+[00:56:41.813] Server  LOG     Initializing schema...
+[00:56:41.818] Server  LOG     Schema initialized
+[00:56:41.821] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[00:57:08.485] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281754763}
+[00:57:09.951] Server  LOG      ✓ Compiled in 1683ms
+[00:57:20.779] Server  LOG      ✓ Compiled in 645ms
+[00:58:16.624] Server  LOG      ✓ Compiled in 8.3s
+[00:58:28.996] Server  LOG      ✓ Compiled in 7.8s
+[00:59:05.675] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281871963}
+[00:59:08.336] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281874652}
+[00:59:26.868] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[00:59:26.884] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[00:59:26.889] Server  LOG     Creating database connection...
+[00:59:26.904] Server  LOG     Database connection created successfully
+[00:59:26.906] Server  LOG     Initializing schema...
+[00:59:26.922] Server  LOG     Schema initialized
+[00:59:26.925] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[00:59:31.150] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281897395}
+[00:59:31.787] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[00:59:31.789] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[00:59:31.792] Server  LOG     Creating database connection...
+[00:59:31.834] Server  LOG     Database connection created successfully
+[00:59:31.858] Server  LOG     Initializing schema...
+[00:59:31.936] Server  LOG     Schema initialized
+[00:59:31.954] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[00:59:32.809] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[00:59:32.819] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[00:59:32.825] Server  LOG     Creating database connection...
+[00:59:32.849] Server  LOG     Database connection created successfully
+[00:59:32.870] Server  LOG     Initializing schema...
+[00:59:32.924] Server  LOG     Schema initialized
+[00:59:32.991] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[00:59:41.915] Server  LOG      ○ Compiling /student/courses/[courseId] ...
+[00:59:58.624] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/courses/1 color: rgb(120, 120, 120) color: inherit {"dp":"/student/courses/[courseId]","o":"http://localhost:3000/student/courses/1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281924940}
+[01:00:05.929] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:00:05.955] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__83763958._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:00:05.983] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:00:06.026] Server  WARN    Error: Route "/api/student/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:00:06.265] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:00:06.269] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__83763958._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:00:06.281] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:00:06.298] Server  WARN    Error: Route "/api/student/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:00:14.874] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281941156}
+[01:00:17.412] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281943711}
+[01:00:27.068] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[01:00:27.070] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[01:00:27.081] Server  LOG     Creating database connection...
+[01:00:27.085] Server  LOG     Database connection created successfully
+[01:00:27.098] Server  LOG     Initializing schema...
+[01:00:27.203] Server  LOG     Schema initialized
+[01:00:27.237] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[01:00:27.299] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281952695}
+[01:00:33.016] Server  LOG      ○ Compiling /teacher/courses/[courseId] ...
+[01:00:41.841] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/courses/1 color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/courses/[courseId]","o":"http://localhost:3000/teacher/courses/1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764281968155}
+[01:00:46.674] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:00:46.677] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:00:46.686] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:00:46.697] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:00:46.964] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:00:46.976] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:00:46.983] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:00:47.017] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:02:01.954] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282048118}
+[01:02:40.778] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282087100}
+[01:02:45.334] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282091483}
+[01:03:28.741] Server  LOG      ✓ Compiled in 652ms
+[01:03:34.484] Server  LOG      ✓ Compiled in 520ms
+[01:03:53.989] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282160298}
+[01:04:30.436] Server  LOG      ✓ Compiled in 7.3s
+[01:04:36.820] Server  LOG      ✓ Compiled in 4.1s
+[01:05:11.658] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282237908}
+[01:05:23.758] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282250019}
+[01:05:30.089] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282256345}
+[01:05:49.160] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/courses/1 color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/courses/[courseId]","o":"http://localhost:3000/teacher/courses/1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282275493}
+[01:05:49.786] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:05:49.789] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:05:49.792] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:05:49.813] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:05:50.038] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:05:50.055] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:05:50.095] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:05:50.128] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:05:53.085] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <ul> p 
+
+  ...
+    <FocusScope asChild={true} loop={true} trapped={true} onMountAutoFocus={function handleEvent} ...>
+      <Primitive.div tabIndex={-1} asChild={true} ref={function} ...>
+        <Slot tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
+          <SlotClone tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
+            <DismissableLayer role="alertdialog" id="radix-_r_2p_" aria-describedby="radix-_r_2r_" ...>
+              <Primitive.div role="alertdialog" id="radix-_r_2p_" aria-describedby="radix-_r_2r_" ...>
+                <div role="alertdialog" id="radix-_r_2p_" aria-describedby="radix-_r_2r_" aria-labelledby="radix-_r_2q_" ...>
+                  <Slottable>
+                    <AlertDialogHeader>
+                      <div data-slot="alert-dial..." className="flex flex-...">
+                        <AlertDialogTitle>
+                        <AlertDialogDescription className="pt-2">
+                          <AlertDialogDescription data-slot="alert-dial..." className="text-muted...">
+                            <DialogDescription __scopeDialog={{Dialog:[...]}} data-slot="alert-dial..." ...>
+                              <Primitive.p id="radix-_r_2r_" data-slot="alert-dial..." className="text-muted..." ...>
+>                               <p
+>                                 id="radix-_r_2r_"
+>                                 data-slot="alert-dialog-description"
+>                                 className="text-muted-foreground text-sm pt-2"
+>                                 ref={null}
+>                               >
+                                  <strong>
+>                                 <ul className="list-disc list-inside mt-2 space-y-1">
+                                  ...
+                    ...
+                  ...
+    ...
+
+[01:05:53.085] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <ul>
+[01:05:53.085] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <FocusScope asChild={true} loop={true} trapped={true} onMountAutoFocus={function handleEvent} ...>
+      <Primitive.div tabIndex={-1} asChild={true} ref={function} ...>
+        <Slot tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
+          <SlotClone tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
+            <DismissableLayer role="alertdialog" id="radix-_r_2p_" aria-describedby="radix-_r_2r_" ...>
+              <Primitive.div role="alertdialog" id="radix-_r_2p_" aria-describedby="radix-_r_2r_" ...>
+                <div role="alertdialog" id="radix-_r_2p_" aria-describedby="radix-_r_2r_" aria-labelledby="radix-_r_2q_" ...>
+                  <Slottable>
+                    <AlertDialogHeader>
+                      <div data-slot="alert-dial..." className="flex flex-...">
+                        <AlertDialogTitle>
+                        <AlertDialogDescription className="pt-2">
+                          <AlertDialogDescription data-slot="alert-dial..." className="text-muted...">
+                            <DialogDescription __scopeDialog={{Dialog:[...]}} data-slot="alert-dial..." ...>
+                              <Primitive.p id="radix-_r_2r_" data-slot="alert-dial..." className="text-muted..." ...>
+>                               <p
+>                                 id="radix-_r_2r_"
+>                                 data-slot="alert-dialog-description"
+>                                 className="text-muted-foreground text-sm pt-2"
+>                                 ref={null}
+>                               >
+                                  <strong>
+                                  <ul>
+>                                 <p className="mt-3 font-semibold text-destructive">
+                    ...
+                  ...
+    ...
+
+[01:05:53.085] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[01:05:59.496] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:05:59.499] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__8a76511d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:05:59.502] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:05:59.511] Server  WARN    Error: Route "/api/teacher/courses/[courseId]" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:06:07.549] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:06:07.575] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__8a76511d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:06:07.621] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:06:07.728] Server  WARN    Error: Route "/api/teacher/courses/[courseId]" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:06:11.875] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282298150}
+[01:06:14.198] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/courses/1 color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/courses/[courseId]","o":"http://localhost:3000/teacher/courses/1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282300524}
+[01:06:14.369] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:06:14.372] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:06:14.375] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:06:14.462] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:06:14.714] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:06:14.723] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:06:14.742] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:06:14.762] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:06:48.794] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:06:48.798] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__8a76511d._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:06:48.804] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:06:48.819] Server  WARN    Error: Route "/api/teacher/courses/[courseId]" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:06:57.291] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282343548}
+[01:08:19.756] Server  LOG      ✓ Compiled in 1599ms
+[01:08:57.333] Server  LOG      ✓ Compiled in 8.1s
+[01:09:04.164] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:09:04.375] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:09:04.375] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/teacher/dashboard","route":"/teacher/dashboard"}
+[01:09:04.375] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282470528}
+[01:09:41.807] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/courses/1 color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/courses/[courseId]","o":"http://localhost:3000/teacher/courses/1","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282508124}
+[01:09:42.345] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:09:42.350] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:09:42.362] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:09:42.375] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:09:42.602] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:09:42.611] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:09:42.621] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:09:42.643] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:09:44.264] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <ul> p 
+
+  ...
+    <FocusScope asChild={true} loop={true} trapped={true} onMountAutoFocus={function handleEvent} ...>
+      <Primitive.div tabIndex={-1} asChild={true} ref={function} ...>
+        <Slot tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
+          <SlotClone tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
+            <DismissableLayer role="alertdialog" id="radix-_r_0_" aria-describedby="radix-_r_2_" ...>
+              <Primitive.div role="alertdialog" id="radix-_r_0_" aria-describedby="radix-_r_2_" ...>
+                <div role="alertdialog" id="radix-_r_0_" aria-describedby="radix-_r_2_" aria-labelledby="radix-_r_1_" ...>
+                  <Slottable>
+                    <AlertDialogHeader>
+                      <div data-slot="alert-dial..." className="flex flex-...">
+                        <AlertDialogTitle>
+                        <AlertDialogDescription className="pt-2">
+                          <AlertDialogDescription data-slot="alert-dial..." className="text-muted...">
+                            <DialogDescription __scopeDialog={{Dialog:[...]}} data-slot="alert-dial..." ...>
+                              <Primitive.p id="radix-_r_2_" data-slot="alert-dial..." className="text-muted..." ...>
+>                               <p
+>                                 id="radix-_r_2_"
+>                                 data-slot="alert-dialog-description"
+>                                 className="text-muted-foreground text-sm pt-2"
+>                                 ref={null}
+>                               >
+                                  <strong>
+>                                 <ul className="list-disc list-inside mt-2 space-y-1">
+                                  ...
+                    ...
+                  ...
+    ...
+
+[01:09:44.264] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <ul>
+[01:09:44.264] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <p> p 
+
+  ...
+    <FocusScope asChild={true} loop={true} trapped={true} onMountAutoFocus={function handleEvent} ...>
+      <Primitive.div tabIndex={-1} asChild={true} ref={function} ...>
+        <Slot tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
+          <SlotClone tabIndex={-1} onKeyDown={function FocusScope.useCallback[handleKeyDown]} ref={function}>
+            <DismissableLayer role="alertdialog" id="radix-_r_0_" aria-describedby="radix-_r_2_" ...>
+              <Primitive.div role="alertdialog" id="radix-_r_0_" aria-describedby="radix-_r_2_" ...>
+                <div role="alertdialog" id="radix-_r_0_" aria-describedby="radix-_r_2_" aria-labelledby="radix-_r_1_" ...>
+                  <Slottable>
+                    <AlertDialogHeader>
+                      <div data-slot="alert-dial..." className="flex flex-...">
+                        <AlertDialogTitle>
+                        <AlertDialogDescription className="pt-2">
+                          <AlertDialogDescription data-slot="alert-dial..." className="text-muted...">
+                            <DialogDescription __scopeDialog={{Dialog:[...]}} data-slot="alert-dial..." ...>
+                              <Primitive.p id="radix-_r_2_" data-slot="alert-dial..." className="text-muted..." ...>
+>                               <p
+>                                 id="radix-_r_2_"
+>                                 data-slot="alert-dialog-description"
+>                                 className="text-muted-foreground text-sm pt-2"
+>                                 ref={null}
+>                               >
+                                  <strong>
+                                  <ul>
+>                                 <p className="mt-3 font-semibold text-destructive">
+                    ...
+                  ...
+    ...
+
+[01:09:44.265] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. p <p>
+[01:09:45.820] Browser LOG     Deleting course: 1 for user: 3
+[01:09:46.385] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[01:09:46.425] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[01:09:46.443] Server  LOG     Creating database connection...
+[01:09:46.473] Server  LOG     Database connection created successfully
+[01:09:46.520] Server  LOG     Initializing schema...
+[01:09:46.546] Server  LOG     Schema initialized
+[01:09:46.595] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[01:09:49.176] Browser LOG     Delete response: 200 {"message":"Course deleted successfully"}
+[01:09:50.405] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282516669}
+[01:09:56.633] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282522859}
+[01:10:43.753] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282570028}
+[01:11:50.694] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[01:11:50.702] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[01:11:50.705] Server  LOG     Creating database connection...
+[01:11:50.709] Server  LOG     Database connection created successfully
+[01:11:50.713] Server  LOG     Initializing schema...
+[01:11:50.719] Server  LOG     Schema initialized
+[01:11:50.724] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[01:13:08.541] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/courses/3 color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/courses/[courseId]","o":"http://localhost:3000/teacher/courses/3","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282714863}
+[01:13:08.878] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:13:08.880] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:13:08.884] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:13:08.896] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:13:08.994] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:13:09.003] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:13:09.010] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:13:09.023] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:13:21.135] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282727363}
+[01:13:23.597] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/courses/2 color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/courses/[courseId]","o":"http://localhost:3000/teacher/courses/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282729902}
+[01:13:23.703] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:13:23.707] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:13:23.727] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:13:23.744] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:13:23.866] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:13:23.871] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:13:23.874] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:13:23.888] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:15:50.541] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:15:50.548] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:15:50.554] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:15:50.566] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:16:07.267] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:07.276] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:07.281] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:07.299] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:16:18.377] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:18.384] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:18.389] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:18.413] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:16:23.633] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282909900}
+[01:16:26.698] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/courses/2 color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/courses/[courseId]","o":"http://localhost:3000/teacher/courses/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282913006}
+[01:16:26.798] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:26.824] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:26.848] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:26.858] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:16:26.977] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:26.982] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:26.988] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:27.001] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:16:28.926] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282915162}
+[01:16:30.359] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/courses/2 color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/courses/[courseId]","o":"http://localhost:3000/teacher/courses/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282916651}
+[01:16:30.428] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:30.433] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:30.445] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:30.474] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:16:30.562] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:30.565] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:30.569] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:30.576] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:16:33.481] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282919781}
+[01:16:35.811] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282922130}
+[01:16:38.642] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282924972}
+[01:16:48.073] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[01:16:48.077] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[01:16:48.081] Server  LOG     Creating database connection...
+[01:16:48.086] Server  LOG     Database connection created successfully
+[01:16:48.088] Server  LOG     Initializing schema...
+[01:16:48.097] Server  LOG     Schema initialized
+[01:16:48.099] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[01:16:56.467] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/courses/2 color: rgb(120, 120, 120) color: inherit {"dp":"/student/courses/[courseId]","o":"http://localhost:3000/student/courses/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282942765}
+[01:16:56.637] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:56.639] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__83763958._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:56.652] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:56.664] Server  WARN    Error: Route "/api/student/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:16:56.756] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:56.758] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__83763958._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:56.761] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:16:56.770] Server  WARN    Error: Route "/api/student/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:17:04.422] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282950733}
+[01:17:10.596] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282956907}
+[01:17:17.140] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764282963396}
+[01:17:59.156] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/courses/2 color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/courses/[courseId]","o":"http://localhost:3000/teacher/courses/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283005465}
+[01:17:59.358] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:17:59.375] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:17:59.442] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:17:59.474] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:17:59.694] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:17:59.769] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__063282fc._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:17:59.826] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:17:59.844] Server  WARN    Error: Route "/api/teacher/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:18:17.718] Server  LOG      ✓ Compiled in 279ms
+[01:18:21.635] Server  LOG      ✓ Compiled in 810ms
+[01:19:48.152] Browser LOG     Creating question: {"courseId":"2","questionText":"Which structure is known as the “powerhouse of the cell”?","questionType":"multiple_choice","userId":"3"}
+[01:19:48.393] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[01:19:48.395] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[01:19:48.396] Server  LOG     Creating database connection...
+[01:19:48.398] Server  LOG     Database connection created successfully
+[01:19:48.399] Server  LOG     Initializing schema...
+[01:19:48.403] Server  LOG     Schema initialized
+[01:19:48.405] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[01:19:48.773] Browser LOG     Create question response: 200 {"message":"Question created successfully","questionId":1}
+[01:19:53.162] Browser LOG     Loading questions for course: 2
+[01:19:56.437] Browser LOG     Questions loaded: {"questions":[{"correct_answer":"Mitochondria","created_at":"2025-11-27 22:38:34","id":1,"options":["Nucleus","Mitochondria","Ribosome","Chloroplast"],"order_index":0,"points":1,"question_text":"Which structure is known as the “powerhouse of the cell”?","question_type":"multiple_choice"}]}
+[01:20:02.128] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283128435}
+[01:20:06.001] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283132333}
+[01:20:08.322] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283134653}
+[01:20:13.438] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/courses/2 color: rgb(120, 120, 120) color: inherit {"dp":"/student/courses/[courseId]","o":"http://localhost:3000/student/courses/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283139773}
+[01:20:13.495] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:13.496] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__83763958._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:13.502] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:13.506] Server  WARN    Error: Route "/api/student/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:20:13.571] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:13.575] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__83763958._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:13.578] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:13.583] Server  WARN    Error: Route "/api/student/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:20:16.425] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283142742}
+[01:20:23.426] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:23.434] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__83763958._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:23.438] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:23.445] Server  WARN    Error: Route "/api/student/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:20:23.464] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/courses/2 color: rgb(120, 120, 120) color: inherit {"dp":"/student/courses/[courseId]","o":"http://localhost:3000/student/courses/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283149714}
+[01:20:23.549] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\compiled\next-server\app-route-turbo.runtime.dev.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:23.559] Server  ERROR   C:\Users\byiri\Videos\REES\.next\dev\server\chunks\[root-of-the-server]__83763958._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:23.563] Server  ERROR   C:\Users\byiri\Videos\REES\node_modules\next\dist\server\lib\trace\tracer.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[01:20:23.572] Server  WARN    Error: Route "/api/student/courses/[courseId]/questions" used `params.courseId`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[01:20:26.582] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283152843}
+[01:21:47.730] Server  LOG      ✓ Compiled in 238ms
+[01:21:57.750] Server  LOG      ✓ Compiled in 382ms
+[01:21:57.873] Browser ERROR   ./Videos/REES/app/student/courses/[courseId]/page.tsx:246:8
+Parsing ecmascript source code failed
+  244 |           )}
+  245 |         </div>
+> 246 |       </main>
+      |        ^^^^^^
+  247 |     </div>
+  248 |   )
+  249 | }
+
+Unterminated regexp literal
+
+Import traces:
+  Client Component Browser:
+    ./Videos/REES/app/student/courses/[courseId]/page.tsx [Client Component Browser]
+    ./Videos/REES/app/student/courses/[courseId]/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Videos/REES/app/student/courses/[courseId]/page.tsx [Client Component SSR]
+    ./Videos/REES/app/student/courses/[courseId]/page.tsx [Server Component]
+[01:22:08.265] Server  LOG      ✓ Compiled in 394ms
+[01:22:23.036] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[01:22:23.041] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[01:22:23.043] Server  LOG     Creating database connection...
+[01:22:23.046] Server  LOG     Database connection created successfully
+[01:22:23.049] Server  LOG     Initializing schema...
+[01:22:23.053] Server  LOG     Schema initialized
+[01:22:23.054] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[01:22:23.058] Server  LOG     Found 1 questions for course 2
+[01:22:23.084] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/courses/2 color: rgb(120, 120, 120) color: inherit {"dp":"/student/courses/[courseId]","o":"http://localhost:3000/student/courses/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283269080}
+[01:22:23.084] Browser LOG     Loading questions for course: 2 user: 1
+[01:22:23.084] Browser LOG     Loading questions for course: 2 user: 1
+[01:22:23.119] Server  LOG     Found 1 questions for course 2
+[01:22:23.250] Browser LOG     Questions response: {"questions":[{"answered":false,"id":1,"options":["Nucleus","Mitochondria","Ribosome","Chloroplast"],"order_index":0,"points":1,"pointsEarned":0,"question_text":"Which structure is known as the “powerhouse of the cell”?","question_type":"multiple_choice","studentAnswer":null}]}
+[01:22:23.250] Browser LOG     Loaded 1 questions
+[01:22:23.250] Browser LOG     Questions response: {"questions":[{"answered":false,"id":1,"options":["Nucleus","Mitochondria","Ribosome","Chloroplast"],"order_index":0,"points":1,"pointsEarned":0,"question_text":"Which structure is known as the “powerhouse of the cell”?","question_type":"multiple_choice","studentAnswer":null}]}
+[01:22:23.250] Browser LOG     Loaded 1 questions
+[01:22:35.373] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283281655}
+[01:22:38.276] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283284609}
+[01:25:27.696] Server  LOG     Signup attempt for: {}
+[01:25:27.715] Server  LOG     Attempting to initialize database at: C:\Users\byiri\Videos\REES\rees.db
+[01:25:27.717] Server  LOG     Environment: NETLIFY=undefined, NODE_ENV=development
+[01:25:27.720] Server  LOG     Creating database connection...
+[01:25:27.725] Server  LOG     Database connection created successfully
+[01:25:27.738] Server  LOG     Initializing schema...
+[01:25:27.742] Server  LOG     Schema initialized
+[01:25:27.743] Server  LOG     Database initialized successfully at: C:\Users\byiri\Videos\REES\rees.db
+[01:25:27.778] Server  LOG     User created successfully: {}
+[01:25:30.056] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283456384}
+[01:25:49.484] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283475801}
+[01:27:09.646] Server  LOG     Signup attempt for: {}
+[01:27:09.763] Server  LOG     User created successfully: {}
+[01:27:12.198] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283558498}
+[01:28:52.641] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/courses/4 color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/courses/[courseId]","o":"http://localhost:3000/teacher/courses/4","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283658962}
+[01:28:52.896] Browser LOG     Loading questions for course: 4
+[01:28:52.898] Browser LOG     Loading questions for course: 4
+[01:28:53.060] Browser LOG     Questions loaded: {"questions":[]}
+[01:28:53.153] Browser LOG     Questions loaded: {"questions":[]}
+[01:29:17.006] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/teacher/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/teacher/dashboard","o":"http://localhost:3000/teacher/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283683282}
+[01:29:23.899] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283690231}
+[01:29:40.824] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283706999}
+[01:29:48.735] Server  LOG     Found 1 questions for course 2
+[01:29:48.809] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/courses/2 color: rgb(120, 120, 120) color: inherit {"dp":"/student/courses/[courseId]","o":"http://localhost:3000/student/courses/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283714904}
+[01:29:48.809] Browser LOG     Loading questions for course: 2 user: 1
+[01:29:48.809] Browser LOG     Loading questions for course: 2 user: 1
+[01:29:48.938] Server  LOG     Found 1 questions for course 2
+[01:29:49.037] Browser LOG     Questions response: {"questions":[{"answered":false,"id":1,"options":["Nucleus","Mitochondria","Ribosome","Chloroplast"],"order_index":0,"points":1,"pointsEarned":0,"question_text":"Which structure is known as the “powerhouse of the cell”?","question_type":"multiple_choice","studentAnswer":null}]}
+[01:29:49.037] Browser LOG     Loaded 1 questions
+[01:29:49.069] Browser LOG     Questions response: {"questions":[{"answered":false,"id":1,"options":["Nucleus","Mitochondria","Ribosome","Chloroplast"],"order_index":0,"points":1,"pointsEarned":0,"question_text":"Which structure is known as the “powerhouse of the cell”?","question_type":"multiple_choice","studentAnswer":null}]}
+[01:29:49.069] Browser LOG     Loaded 1 questions
+[01:30:00.357] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283726617}
+[01:30:13.468] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283739781}
+[01:30:35.736] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/admin/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/admin/dashboard","o":"http://localhost:3000/admin/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283762043}
+[01:31:33.621] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283819949}
+[01:31:48.227] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283834535}
+[01:31:52.831] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283839161}
+[01:32:20.836] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283867049}
+[01:32:39.509] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/courses/2 color: rgb(120, 120, 120) color: inherit {"dp":"/student/courses/[courseId]","o":"http://localhost:3000/student/courses/2","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283885844}
+[01:32:39.836] Server  LOG     Found 1 questions for course 2
+[01:32:39.911] Browser LOG     Loading questions for course: 2 user: 4
+[01:32:39.911] Browser LOG     Loading questions for course: 2 user: 4
+[01:32:40.042] Server  LOG     Found 1 questions for course 2
+[01:32:40.105] Browser LOG     Questions response: {"questions":[{"answered":false,"id":1,"options":["Nucleus","Mitochondria","Ribosome","Chloroplast"],"order_index":0,"points":1,"pointsEarned":0,"question_text":"Which structure is known as the “powerhouse of the cell”?","question_type":"multiple_choice","studentAnswer":null}]}
+[01:32:40.105] Browser LOG     Loaded 1 questions
+[01:32:40.176] Browser LOG     Questions response: {"questions":[{"answered":false,"id":1,"options":["Nucleus","Mitochondria","Ribosome","Chloroplast"],"order_index":0,"points":1,"pointsEarned":0,"question_text":"Which structure is known as the “powerhouse of the cell”?","question_type":"multiple_choice","studentAnswer":null}]}
+[01:32:40.176] Browser LOG     Loaded 1 questions
+[01:32:48.898] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/student/dashboard color: rgb(120, 120, 120) color: inherit {"dp":"/student/dashboard","o":"http://localhost:3000/student/dashboard","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283895184}
+[01:32:56.092] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764283902415}

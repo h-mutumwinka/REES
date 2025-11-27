@@ -1,3 +1,19 @@
 {
-  "/page": "app/page.js"
+  "/admin/dashboard/page": "app/admin/dashboard/page.js",
+  "/api/admin/dashboard/route": "app/api/admin/dashboard/route.js",
+  "/api/auth/login/route": "app/api/auth/login/route.js",
+  "/api/auth/signup/route": "app/api/auth/signup/route.js",
+  "/api/student/courses/[courseId]/questions/route": "app/api/student/courses/[courseId]/questions/route.js",
+  "/api/student/courses/route": "app/api/student/courses/route.js",
+  "/api/student/dashboard/route": "app/api/student/dashboard/route.js",
+  "/api/student/enroll/route": "app/api/student/enroll/route.js",
+  "/api/teacher/courses/[courseId]/questions/route": "app/api/teacher/courses/[courseId]/questions/route.js",
+  "/api/teacher/courses/[courseId]/route": "app/api/teacher/courses/[courseId]/route.js",
+  "/api/teacher/courses/route": "app/api/teacher/courses/route.js",
+  "/api/teacher/dashboard/route": "app/api/teacher/dashboard/route.js",
+  "/page": "app/page.js",
+  "/student/courses/[courseId]/page": "app/student/courses/[courseId]/page.js",
+  "/student/dashboard/page": "app/student/dashboard/page.js",
+  "/teacher/courses/[courseId]/page": "app/teacher/courses/[courseId]/page.js",
+  "/teacher/dashboard/page": "app/teacher/dashboard/page.js"
 }

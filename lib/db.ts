@@ -93,6 +93,30 @@ function initializeSchema(database: Database.Database) {
       FOREIGN KEY (student_id) REFERENCES users(id),
       FOREIGN KEY (material_id) REFERENCES course_materials(id)
     );
+    CREATE TABLE IF NOT EXISTS questions (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      course_id INTEGER NOT NULL,
+      question_text TEXT NOT NULL,
+      question_type TEXT NOT NULL CHECK(question_type IN ('multiple_choice', 'short_answer', 'essay')),
+      options TEXT,
+      correct_answer TEXT,
+      points INTEGER DEFAULT 1,
+      order_index INTEGER DEFAULT 0,
+      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      FOREIGN KEY (course_id) REFERENCES courses(id)
+    );
+    CREATE TABLE IF NOT EXISTS question_answers (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      question_id INTEGER NOT NULL,
+      student_id INTEGER NOT NULL,
+      answer_text TEXT NOT NULL,
+      is_correct BOOLEAN,
+      points_earned INTEGER DEFAULT 0,
+      submitted_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+      UNIQUE(question_id, student_id),
+      FOREIGN KEY (question_id) REFERENCES questions(id),
+      FOREIGN KEY (student_id) REFERENCES users(id)
+    );
   `
   database.exec(schema)
 }
