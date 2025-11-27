@@ -4,7 +4,7 @@ import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-prf7b(zl8&$n*7$7u30yf@+61gi^rd31$61q*15jed$%5n3b6e'
-DEBUG = True
+DEBUG = False
 ALLOWED_HOSTS = ["rees-6jbs.onrender.com", "localhost", "127.0.0.1"]
 
 INSTALLED_APPS = [
