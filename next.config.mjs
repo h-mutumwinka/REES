@@ -6,6 +6,10 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Ensure native modules are properly handled
+  experimental: {
+    serverComponentsExternalPackages: ["better-sqlite3"],
+  },
 }
 
 export default nextConfig

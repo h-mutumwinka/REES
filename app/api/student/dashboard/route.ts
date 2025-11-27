@@ -1,16 +1,5 @@
 import { type NextRequest, NextResponse } from "next/server"
-import Database from "better-sqlite3"
-import path from "path"
-
-let db: Database.Database
-
-function getDb() {
-  if (!db) {
-    const dbPath = path.join(process.cwd(), "rees.db")
-    db = new Database(dbPath)
-  }
-  return db
-}
+import { getDb } from "@/lib/db"
 
 export async function GET(request: NextRequest) {
   try {
@@ -42,6 +31,10 @@ export async function GET(request: NextRequest) {
       courses,
     })
   } catch (error) {
-    return NextResponse.json({ error: "Server error" }, { status: 500 })
+    console.error("Student dashboard error:", error)
+    return NextResponse.json(
+      { error: "Server error", details: error instanceof Error ? error.message : String(error) },
+      { status: 500 }
+    )
   }
 }

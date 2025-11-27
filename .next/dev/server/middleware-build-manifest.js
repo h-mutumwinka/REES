@@ -4,20 +4,20 @@ globalThis.__BUILD_MANIFEST = {
   },
   "devFiles": [],
   "polyfillFiles": [
-    "static/chunks/2bb46_next_dist_build_polyfills_polyfill-nomodule.js"
+    "static/chunks/3082f_next_dist_build_polyfills_polyfill-nomodule.js"
   ],
   "lowPriorityFiles": [],
   "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_c44ac58c._.js",
-    "static/chunks/2bb46_next_dist_compiled_react-dom_b4143e3f._.js",
-    "static/chunks/2bb46_next_dist_compiled_react-server-dom-turbopack_77f0bbc3._.js",
-    "static/chunks/2bb46_next_dist_compiled_next-devtools_index_49d12ba1.js",
-    "static/chunks/2bb46_next_dist_compiled_4bbbd40b._.js",
-    "static/chunks/2bb46_next_dist_client_b8db2f10._.js",
-    "static/chunks/2bb46_next_dist_eea8875f._.js",
-    "static/chunks/2bb46_@swc_helpers_cjs_eaf13d17._.js",
-    "static/chunks/Music_RuralEducation_a0ff3932._.js",
-    "static/chunks/turbopack-Music_RuralEducation_bba1a246._.js"
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_551a573c._.js",
+    "static/chunks/3082f_next_dist_compiled_react-dom_86cfb278._.js",
+    "static/chunks/3082f_next_dist_compiled_react-server-dom-turbopack_8b36e7ec._.js",
+    "static/chunks/3082f_next_dist_compiled_next-devtools_index_b95384cf.js",
+    "static/chunks/3082f_next_dist_compiled_7f954aa3._.js",
+    "static/chunks/3082f_next_dist_client_1ad62854._.js",
+    "static/chunks/3082f_next_dist_df1c35b6._.js",
+    "static/chunks/3082f_@swc_helpers_cjs_c8497999._.js",
+    "static/chunks/Videos_REES_a0ff3932._.js",
+    "static/chunks/turbopack-Videos_REES_cb541fe6._.js"
   ]
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [

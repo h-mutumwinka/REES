@@ -1,90 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server"
-import Database from "better-sqlite3"
-import crypto from "crypto"
-import path from "path"
-
-let db: Database.Database
-
-function getDb() {
-  if (!db) {
-    const dbPath = path.join(process.cwd(), "rees.db")
-    db = new Database(dbPath)
-    // Initialize schema
-    const schema = `
-      CREATE TABLE IF NOT EXISTS users (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        name TEXT NOT NULL,
-        email TEXT UNIQUE NOT NULL,
-        password TEXT NOT NULL,
-        phone TEXT,
-        role TEXT NOT NULL CHECK(role IN ('student', 'teacher', 'admin')),
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
-      );
-      CREATE TABLE IF NOT EXISTS courses (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        title TEXT NOT NULL,
-        description TEXT,
-        subject TEXT NOT NULL,
-        grade_level TEXT NOT NULL,
-        teacher_id INTEGER NOT NULL,
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        updated_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        FOREIGN KEY (teacher_id) REFERENCES users(id)
-      );
-      CREATE TABLE IF NOT EXISTS course_materials (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        course_id INTEGER NOT NULL,
-        title TEXT NOT NULL,
-        content TEXT NOT NULL,
-        material_type TEXT NOT NULL CHECK(material_type IN ('lesson', 'video', 'assignment', 'resource')),
-        file_url TEXT,
-        order_index INTEGER DEFAULT 0,
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        FOREIGN KEY (course_id) REFERENCES courses(id)
-      );
-      CREATE TABLE IF NOT EXISTS enrollments (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        student_id INTEGER NOT NULL,
-        course_id INTEGER NOT NULL,
-        enrolled_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        UNIQUE(student_id, course_id),
-        FOREIGN KEY (student_id) REFERENCES users(id),
-        FOREIGN KEY (course_id) REFERENCES courses(id)
-      );
-      CREATE TABLE IF NOT EXISTS progress (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        student_id INTEGER NOT NULL,
-        material_id INTEGER NOT NULL,
-        completed BOOLEAN DEFAULT FALSE,
-        completed_at DATETIME,
-        created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        UNIQUE(student_id, material_id),
-        FOREIGN KEY (student_id) REFERENCES users(id),
-        FOREIGN KEY (material_id) REFERENCES course_materials(id)
-      );
-      CREATE TABLE IF NOT EXISTS submissions (
-        id INTEGER PRIMARY KEY AUTOINCREMENT,
-        student_id INTEGER NOT NULL,
-        material_id INTEGER NOT NULL,
-        submission_text TEXT,
-        submission_file_url TEXT,
-        grade INTEGER,
-        feedback TEXT,
-        submitted_at DATETIME DEFAULT CURRENT_TIMESTAMP,
-        graded_at DATETIME,
-        FOREIGN KEY (student_id) REFERENCES users(id),
-        FOREIGN KEY (material_id) REFERENCES course_materials(id)
-      );
-    `
-    db.exec(schema)
-  }
-  return db
-}
-
-function hashPassword(password: string): string {
-  return crypto.createHash("sha256").update(password).digest("hex")
-}
+import { getDb } from "@/lib/db"
+import { hashPassword } from "@/lib/auth"
+import { checkDatabaseAvailability } from "@/lib/db-check"
 
 export async function POST(request: NextRequest) {
   try {
@@ -94,7 +11,42 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 })
     }
 
-    const database = getDb()
+    console.log("Signup attempt for:", { email, role, name: name.substring(0, 3) + "***" })
+
+    // Check if database module is available first
+    const dbCheck = checkDatabaseAvailability()
+    if (!dbCheck.available) {
+      console.error("Database module not available:", dbCheck)
+      return NextResponse.json(
+        {
+          error: "Database module not available",
+          details: dbCheck.error,
+          solution: "better-sqlite3 (a native module) does not work on Netlify serverless functions. " +
+            "Please migrate to a cloud database like Supabase, PlanetScale, Turso, or Neon.",
+          environment: {
+            netlify: process.env.NETLIFY,
+            nodeEnv: process.env.NODE_ENV,
+            platform: process.platform,
+          },
+        },
+        { status: 500 }
+      )
+    }
+
+    let database
+    try {
+      database = getDb()
+    } catch (dbError) {
+      console.error("Database connection failed:", dbError)
+      return NextResponse.json(
+        {
+          error: "Database connection failed",
+          details: dbError instanceof Error ? dbError.message : String(dbError),
+          hint: "better-sqlite3 may not work on Netlify. Consider using a cloud database.",
+        },
+        { status: 500 }
+      )
+    }
 
     // Check if email already exists
     const existingUser = database.prepare("SELECT id FROM users WHERE email = ?").get(email)
@@ -110,12 +62,26 @@ export async function POST(request: NextRequest) {
 
     const result = insert.run(name, email, hashPassword(password), phone || null, role)
 
+    console.log("User created successfully:", { userId: result.lastInsertRowid, role })
+
     return NextResponse.json({
       userId: result.lastInsertRowid,
       role,
     })
   } catch (error) {
-    console.error("Signup error:", error)
-    return NextResponse.json({ error: "Server error" }, { status: 500 })
+    const errorDetails = {
+      message: error instanceof Error ? error.message : String(error),
+      stack: error instanceof Error ? error.stack : undefined,
+      name: error instanceof Error ? error.name : undefined,
+    }
+    console.error("Signup error:", errorDetails)
+    return NextResponse.json(
+      {
+        error: "Server error",
+        details: errorDetails.message,
+        ...(process.env.NODE_ENV === "development" && { stack: errorDetails.stack }),
+      },
+      { status: 500 }
+    )
   }
 }

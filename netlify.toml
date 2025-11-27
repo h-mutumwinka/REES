@@ -1,0 +1,24 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+[build.environment]
+  NETLIFY = "true"
+  NODE_VERSION = "18"
+  # Build better-sqlite3 native module
+  npm_config_build_from_source = "true"
+
+# Function configuration for better-sqlite3 native module
+# Note: better-sqlite3 is a native module and may not work on Netlify serverless
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["**/*.db", "**/*.node"]
+  
+# Don't externalize better-sqlite3 - try to bundle it
+# If this doesn't work, you'll need to use a cloud database
+[functions."app/api/**"]
+  node_bundler = "esbuild"
+

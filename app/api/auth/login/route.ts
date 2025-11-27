@@ -1,21 +1,6 @@
 import { type NextRequest, NextResponse } from "next/server"
-import Database from "better-sqlite3"
-import crypto from "crypto"
-import path from "path"
-
-let db: Database.Database
-
-function getDb() {
-  if (!db) {
-    const dbPath = path.join(process.cwd(), "rees.db")
-    db = new Database(dbPath)
-  }
-  return db
-}
-
-function hashPassword(password: string): string {
-  return crypto.createHash("sha256").update(password).digest("hex")
-}
+import { getDb } from "@/lib/db"
+import { hashPassword } from "@/lib/auth"
 
 export async function POST(request: NextRequest) {
   try {
@@ -37,6 +22,10 @@ export async function POST(request: NextRequest) {
       role: user.role,
     })
   } catch (error) {
-    return NextResponse.json({ error: "Server error" }, { status: 500 })
+    console.error("Login error:", error)
+    return NextResponse.json(
+      { error: "Server error", details: error instanceof Error ? error.message : String(error) },
+      { status: 500 }
+    )
   }
 }
